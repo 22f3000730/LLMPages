@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Site</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .file-section {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .file-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .file-icon {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .content-preview {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-left: 4px solid #3498db;
+            margin-top: 1rem;
+            white-space: pre-wrap;
+            font-size: 0.9rem;
+        }
+        .json-display {
+            font-family: monospace;
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 1rem;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GitHub Pages Site</h1>
+        <p>A collection of creative works and data files</p>
+    </header>
+
+    <main>
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">📄</span>
+                <h2><a href="ashravan.txt">ashravan.txt</a></h2>
+            </div>
+            <p>A 300-400 word Brandon Sanderson-style short story about what happens to Ashravan after Shai restores him, building up to a dramatic climax.</p>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">⚖️</span>
+                <h2><a href="dilemma.json">dilemma.json</a></h2>
+            </div>
+            <p>An ethical dilemma analysis for autonomous vehicles: Should they swerve to hit fewer people? What if the people have different moral weights?</p>
+            <div class="content-preview">
+                Example: {"people": 2, "case_1": {"swerve": true, "reason": "Minimize casualties"}, ...}
+            </div>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">📝</span>
+                <h2><a href="about.md">about.md</a></h2>
+            </div>
+            <p>A brief self-description in exactly three words.</p>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">🎨</span>
+                <h2><a href="pelican.svg">pelican.svg</a></h2>
+            </div>
+            <p>An SVG illustration of a pelican riding a bicycle - a whimsical artistic creation.</p>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">🍽️</span>
+                <h2><a href="restaurant.json">restaurant.json</a></h2>
+            </div>
+            <p>Recommendation for a good restaurant in Bangalore with location data and menu details.</p>
+            <div class="content-preview">
+                Example: {"city": "Bangalore", "lat": 12.9716, "long": 77.5946, "name": "Tasty Treats", ...}
+            </div>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">📈</span>
+                <h2><a href="prediction.json">prediction.json</a></h2>
+            </div>
+            <p>Forecast of the Fed Funds rate in December 2025 with justification.</p>
+            <div class="content-preview">
+                Example: {"rate": 0.04, "reason": "Economic conditions suggest ..."}
+            </div>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">🆔</span>
+                <h2><a href="uid.txt">uid.txt</a></h2>
+            </div>
+            <p>A unique identifier file.</p>
+        </section>
+
+        <section class="file-section">
+            <div class="file-title">
+                <span class="file-icon">📄</span>
+                <h2><a href="LICENSE">LICENSE</a></h2>
+            </div>
+            <p>MIT License for this repository.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created as part of GitHub Pages site requirements</p>
+    </footer>
+</body>
+</html>
